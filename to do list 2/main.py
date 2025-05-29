@@ -1,9 +1,9 @@
 import time
 class Task:
-     file_path="C:\Users\SPSOFT\OneDrive\Desktop\to do list 2\to_do_list.txt"
-def __init__(self,tasks):
+     
+ def __init__(self,tasks):
     self.tasks=tasks
-  
+    self.file_path=r"D:\junior_assigments\to do list 2\to_do_list.txt"
 def load_tasks(self):
         tasks = {}
         try:
@@ -56,11 +56,11 @@ def show_tasks(self,tasks):
             print(f"- {task} (Added on {timestamp})")
     else:
         print("No tasks found.")
-class ToDoList:
-    def check(self):
+
+def check(self):
         self.tasks =load_tasks()
         
-    while True:
+while True:
         print("\n--- TO-DO LIST ---")
         print("1. Add Task")
         print("2. Remove Task")  
@@ -80,7 +80,7 @@ class ToDoList:
         else:
             print("Invalid choice. Please enter 1-5.")
 
-todolist=ToDoList()
-todolist.add_task()
+todolist=Task()
+todolist.check()
 
     
