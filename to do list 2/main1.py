@@ -24,18 +24,19 @@ class Task:
                 file.write(f"{task}  {timestamp}\n") 
 
 class AddTask(Task):
+    
     def add_task(self, tasks):
         task = input("enter a task").strip() 
         if task in tasks: 
             print(f"Task '{task}' already exists. Do you want to edit it?")
             a = input("Enter Yes / No: ").strip().lower()
             if a == "yes":
-                new_task_desc = input("Enter the new task: ").strip()
+                new_task= input("Enter the new task: ").strip()
                 timestamp = time.strftime("%Y-%m-%d %H:%M:%S")
                 del tasks[task]
-                tasks[new_task_desc] = timestamp
+                tasks[new_task] = timestamp
                 self.save_tasks(tasks) 
-                print(f"Task '{new_task_desc}' updated at {timestamp}.")
+                print(f"Task '{new_task}' updated at {timestamp}.")
             else:
                 print("No changes made.")
         else:
