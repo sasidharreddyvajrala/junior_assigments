@@ -1,1 +1,13 @@
-john|4308|cse|2020|
+joy,345,cse,kits,2020,pass;pass;pass;pass;pass;pass;pass;pass
+angel,234,eee,kits,2021,pass;pass;pass;pass;pass;pass
+nayomi,321,ece,kits,2020,pass;pass;pass;pass;pass;pass;pass;pass
+jhansi,232,civil,kits,2020,pass;pass;pass;pass;pass;pass;pass;pass
+nithish,897,cse,kits,2020,pass;pass;pass;pass;pass;pass;pass;pass
+navya,232,cse,kits,2023,pass;pass;pass;pass
+john,233,civil,kits,2021,pass;pass;pass;fail;pass;pass
+lasya,111,cse,kits,2019,pass;pass;pass;pass;pass;pass;pass;pass
+hema,221,ece,kits,2018,pass;pass;pass;pass;pass;fail;pass;fail
+arjun,323,cse,kits,2019,pass;pass;pass;pass;pass;pass;pass;fail
+abc,4567,EEE,kits,2020,pass;fail
+zac,1234,CSE,kits,2019,fail
+dac,2345,ECE,kits,2018,F
