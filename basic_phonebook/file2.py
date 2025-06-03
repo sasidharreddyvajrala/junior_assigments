@@ -25,6 +25,7 @@ FILENAME = "students.txt"
 
 def create_student():
     name = input("Enter name: ")
+    
     rollno = input("Enter roll number: ")
     department = input("Enter department: ")
     college = input("Enter college: ")
