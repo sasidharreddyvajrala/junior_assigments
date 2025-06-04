@@ -1,4 +1,10 @@
-def create_contact(name, phone):
+class ph_book():
+    def __init__(self,name,phone):
+        self.name=name
+        self.phone=phone
+
+        
+    def create_contact(name, phone):
     contacts = load_contacts_from_file()
 
     if name in contacts:

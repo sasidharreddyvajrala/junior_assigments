@@ -1,0 +1,44 @@
+Name: appu
+Roll No: 101
+Department: cse
+College: kits
+Joining Year: 2020
+Year 2020: Marks = 76.0, Result = Pass
+Year 2021: Marks = 76.0, Result = Pass
+Year 2022: Marks = 23.0, Result = Fail
+Year 2023: Marks = 86.0, Result = Pass
+Final Status: You have failed
+----------------------------------------
+Name: haritha
+Roll No: 102
+Department: ece
+College: kits
+Joining Year: 2020
+Year 2020: Marks = 56.0, Result = Pass
+Year 2021: Marks = 98.0, Result = Pass
+Year 2022: Marks = 56.0, Result = Pass
+Year 2023: Marks = 93.0, Result = Pass
+Final Status: You are graduated
+----------------------------------------
+Name: jahnavi
+Roll No: 103
+Department: cevil
+College: kits
+Joining Year: 2020
+Year 2020: Marks = 54.0, Result = Pass
+Year 2021: Marks = 56.0, Result = Pass
+Year 2022: Marks = 67.0, Result = Pass
+Year 2023: Marks = 73.0, Result = Pass
+Final Status: You are graduated
+----------------------------------------
+Name: nagasree
+Roll No: 104
+Department: eee
+College: kits
+Joining Year: 2020
+Year 2020: Marks = 65.0, Result = Pass
+Year 2021: Marks = 45.0, Result = Pass
+Year 2022: Marks = 45.0, Result = Pass
+Year 2023: Marks = 32.0, Result = Fail
+Final Status: You have failed
+----------------------------------------

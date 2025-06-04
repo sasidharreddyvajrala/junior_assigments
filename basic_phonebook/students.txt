@@ -1,5 +1,2 @@
 
-appu,222,cse,kits,2020,pass;fail
-abc,123,eee,kits,2020,pass;fail;pass;fail
-abc,123,eee,kits,2020,
-abc,123,eee,kits,2020,
+
