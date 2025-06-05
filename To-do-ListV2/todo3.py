@@ -29,13 +29,14 @@ class Operation(ABC):
     def execute(self):
         pass
 
+    
+class FindTaskMixin:
     def find_task(self,title:str):
         for task in self.task_list.tasks:
             if task.title == title:
                 return task
         return None
-    
-class AddTask(Operation):
+class AddTask(Operation,FindTaskMixin):
     def __init__(self,task_list:TaskList):
         self.task_list = task_list
     def execute(self):
@@ -49,7 +50,7 @@ class AddTask(Operation):
         self.task_list.tasks.append(new_task)
         print(f"Task '{title}' added.")
 
-class DeleteTask(Operation):
+class DeleteTask(Operation,FindTaskMixin):
     def __init__(self,task_list:TaskList):
         self.task_list = task_list
     def execute(self):
@@ -61,7 +62,7 @@ class DeleteTask(Operation):
         else:
             print("Task not found.")
 
-class CompleteTask(Operation):
+class CompleteTask(Operation,FindTaskMixin):
     def __init__(self,task_list:TaskList):
         self.task_list = task_list
     def execute(self):
@@ -72,7 +73,7 @@ class CompleteTask(Operation):
             return
         print("Task not found")
 
-class ShowTasks(Operation):
+class ShowTasks(Operation,FindTaskMixin):
     def __init__(self, task_list):
         super().__init__(task_list)
 
